@@ -9,4 +9,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    fun sum(num1 : Int, num2 : Int) : Int{
+        return num1 + num2
+    }
 }
